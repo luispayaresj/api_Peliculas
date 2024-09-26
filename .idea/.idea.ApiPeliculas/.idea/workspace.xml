@@ -4,8 +4,24 @@
     <projectFile profileName="http">ApiPeliculas/ApiPeliculas.csproj</projectFile>
     <projectFile profileName="https">ApiPeliculas/ApiPeliculas.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="627e087b-737e-4537-96f0-d2802b34686c" name="Changes" comment="First_Commit" />
+    <list default="true" id="627e087b-737e-4537-96f0-d2802b34686c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ApiPeliculas/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiPeliculas/Modelos/Categoria.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiPeliculas/Modelos/Dtos/ActualizarCategoriaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiPeliculas/Modelos/Dtos/CategoriaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiPeliculas/Modelos/Dtos/CrearCategoriaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiPeliculas/PeliculasMappers/PeliculasMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiPeliculas/Repositorio/CategoriaRepositorio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiPeliculas/Repositorio/IRepositorio/ICategoriaRepositorio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiPeliculas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiPeliculas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiPeliculas/ApiPeliculas.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ApiPeliculas/ApiPeliculas.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiPeliculas/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiPeliculas/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiPeliculas/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ApiPeliculas/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,23 +30,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "luispayaresj"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;luispayaresj&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/luispayaresj/api_Peliculas.git",
-    "accountId": "ffaa6af2-13e0-4db3-8259-48cddd574b11"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/luispayaresj/api_Peliculas.git&quot;,
+    &quot;accountId&quot;: &quot;ffaa6af2-13e0-4db3-8259-48cddd574b11&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4b21fc3f8a3abb5d25f06c622276fbec0fd3932f169cc6af520bf5abc6a46b4/DbSet.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2maUHb6vFP6BImfEQzpi4i7tDhD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,6 +66,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +110,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727314094501</updated>
-      <workItem from="1727314097986" duration="355000" />
+      <workItem from="1727314097986" duration="819000" />
+      <workItem from="1727357602136" duration="20126000" />
     </task>
     <task id="LOCAL-00001" summary="First_Commit">
       <option name="closed" value="true" />
@@ -100,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727314234997</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Secod_Commit">
+      <option name="closed" value="true" />
+      <created>1727314608458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727314608458</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Third_Commit">
+      <option name="closed" value="true" />
+      <created>1727314737030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727314737030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +160,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First_Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First_Commit" />
+    <MESSAGE value="Secod_Commit" />
+    <MESSAGE value="Third_Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third_Commit" />
   </component>
 </project>
